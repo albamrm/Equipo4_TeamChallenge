@@ -56,7 +56,8 @@ def main():
             
             # Verificar si las coordenadas están dentro del rango permitido
             if not (0 <= x < TAMANO_TABLERO and 0 <= y < TAMANO_TABLERO):
-                print("¡Coordenadas fuera del rango! Deben estar entre 0 y 9.")
+                print("¡Coordenadas fuera del rango, despistado! Deben estar entre 0 y 9.")
+                time.sleep(5)
                 continue  # Vuelve al inicio del bucle
 
             # Disparar en las coordenadas introducidas
@@ -86,7 +87,7 @@ def main():
             
         except ValueError:
             print("¡Error, zoquete! Debes introducir números enteros separados por comas.")
-            time.sleep(3)
+            time.sleep(5)
 
 
 if __name__ == "__main__":
