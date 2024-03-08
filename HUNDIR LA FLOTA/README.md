@@ -49,6 +49,21 @@ los barcos hundidos como H."
 >>>👁️‍🗨️ En un primer momento se imprimen los barcos del enemigo, solo para mostrar que su disposición es aleatoria y que no siempre ocupan las mismas coordenadas. Obviamente, para un juego justo, esto no debería ser así, pero un simple "#" basta para que este no aparezca impreso. 
 
 Para jugar, la máquina nos irá pidiendo que introduzcamos coordenadas, separadas por coma y, obviamente, primero filas y después columnas, marcando dónde fue el tiro y si este fue al agua o a un barco enemigo, avisando también cuando hundimos un barco.
-Si el tiro fue a barco, volveremos a tirar, en caso contrario será la maquina quien dispare.
+Si el tiro fue a barco, volveremos a tirar, en caso contrario será la maquina quien dispare. 
+
+## EXPLICACIÓN DE CADA ARCHIVO.
+ 
+>> **Variables.py:**  
+>>>En este archivo se definen las variables principales utilizadas en el juego, como el tamaño del tablero y los barcos disponibles con su longitud   respectiva. Establece la configuración básica necesaria para el juego funcionar correctamente.  
+
+>> **Clases.py:**    
+>>>Contiene la definición de la clase Tablero, que representa el tablero de juego y sus funcionalidades. Desde la inicialización del tablero hasta el   manejo de disparos y control de barcos, esta clase gestiona el estado del juego y las interacciones entre los jugadores.  
+
+>> **Funciones.py: :**  
+>>>Aquí se encuentran varias funciones utilitarias que son utilizadas en el juego. Una función importante es generar_coordenadas_aleatorias(), que se   encarga de generar coordenadas aleatorias para que la máquina realice sus disparos durante el juego.  
+
+>> **Main.py:**  
+>>>Este archivo contiene el código principal del juego. Coordina la interacción entre el jugador y la máquina, gestionando los turnos, mostrando   mensajes al jugador y controlando el flujo del juego. Es el punto de entrada y controla toda la lógica del juego, ofreciendo una experiencia de   juego fluida y entretenida.  
+
 
 
