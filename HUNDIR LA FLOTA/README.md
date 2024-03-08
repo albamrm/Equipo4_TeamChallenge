@@ -2,9 +2,9 @@
 > **Grupo 4**, conformado por: Alba María Romero, Fernando Manzano, Pedro Pérez y Pepe Reina.
 >> Decidimos ambientar nuestro juego en [Blas de lezo](https://es.wikipedia.org/wiki/Blas_de_Lezo). Para ello, el juego inicia con una pequeña presentación del personaje, en la que Blas pide que introduzcas tu nombre.  
 <img src="./imagenes/Don_Blas_de_Lezo.jpg" width="250">  
->>IMAGEN DE LA ENTRADA EN WIKIPEDIA   
-   
-##El mensaje de presentación es el siguiente:
+<sub>IMAGEN DE LA ENTRADA EN WIKIPEDIA .</sub>    
+>
+>**El mensaje de presentación es el siguiente:** 
 >> ¡Saludos, marinero intrépido! 
 Soy Blas de Lezo y Olavarrieta, nacido en Pasajes, Guipúzcoa, el 3 de febrero de 1689. 
 A lo largo de mi vida, he surcado los mares y enfrentado numerosas batallas, 
@@ -49,7 +49,7 @@ los barcos hundidos como H."
 >>>👁️‍🗨️ En un primer momento se imprimen los barcos del enemigo, solo para mostrar que su disposición es aleatoria y que no siempre ocupan las mismas coordenadas. Obviamente, para un juego justo, esto no debería ser así, pero un simple "#" basta para que este no aparezca impreso. 
 
 Para jugar, la máquina nos irá pidiendo que introduzcamos coordenadas, separadas por coma y, obviamente, primero filas y después columnas, marcando dónde fue el tiro y si este fue al agua o a un barco enemigo, avisando también cuando hundimos un barco.
-Si el tiro fue a barco, volveremos a tirar, en caso contrario será la maquina quien dispare. 
+Si el tiro fue a barco, volveremos a tirar, en caso contrario será la maquina quien dispare.  
 
 ## EXPLICACIÓN DE CADA ARCHIVO.
  
@@ -63,7 +63,6 @@ Si el tiro fue a barco, volveremos a tirar, en caso contrario será la maquina q
 >>>Aquí se encuentran varias funciones utilitarias que son utilizadas en el juego. Una función importante es generar_coordenadas_aleatorias(), que se   encarga de generar coordenadas aleatorias para que la máquina realice sus disparos durante el juego.  
 
 >> **Main.py:**  
->>>Este archivo contiene el código principal del juego. Coordina la interacción entre el jugador y la máquina, gestionando los turnos, mostrando   mensajes al jugador y controlando el flujo del juego. Es el punto de entrada y controla toda la lógica del juego, ofreciendo una experiencia de   juego fluida y entretenida.  
-
+>>>Este archivo contiene el código principal del juego. Coordina la interacción entre el jugador y la máquina, gestionando los turnos, mostrando   mensajes al jugador y controlando el flujo del juego. Es el punto de entrada y controla toda la lógica del juego, ofreciendo una experiencia de   juego fluida y entretenida.
 
 
