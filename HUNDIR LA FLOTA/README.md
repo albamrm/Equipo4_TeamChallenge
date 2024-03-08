@@ -4,7 +4,7 @@
 <img src="./imagenes/Don_Blas_de_Lezo.jpg" width="250">  
 <sub>IMAGEN DE LA ENTRADA EN WIKIPEDIA .</sub>        
 >    
->**El mensaje de presentación es el siguiente:** 
+##El mensaje de presentación es el siguiente:** 
 >> ¡Saludos, marinero intrépido! 
 Soy Blas de Lezo y Olavarrieta, nacido en Pasajes, Guipúzcoa, el 3 de febrero de 1689. 
 A lo largo de mi vida, he surcado los mares y enfrentado numerosas batallas, 
